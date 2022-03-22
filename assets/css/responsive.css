@@ -1,0 +1,30 @@
+@media(max-width:739px) {
+    #nav{
+        display: none;
+    }
+    #stt {
+        margin: 50px 0px;
+    }
+    #slider .slider__intro-right{
+        margin:100px 0;
+        text-align: center;
+    }
+   #contact{
+       padding: 0 0;
+   }
+   #instagram{
+        padding: 100px 20px;
+    }
+}
+
+/* tablet */
+@media only screen and (min-device-width : 740px) and (max-device-width : 1023px) {
+    #nav li{
+        flex:1;
+        text-align:center;
+    }
+    #instagram{
+        padding: 100px 20px;
+    }
+    
+}

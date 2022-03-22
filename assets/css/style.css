@@ -1,0 +1,360 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* topic */
+.header__topic{
+    background-color: #000;
+    color: #fff;
+    --height:100px;
+}
+.header__topic h2{
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    line-height:var(--height);
+}
+#nav {
+    width: 100%;
+    background-color:rgb(48, 44, 44);
+    height:40px;
+    list-style: none;
+    align-items: center;
+    display:flex;
+}
+
+#nav li a {
+    text-decoration: none;
+    color:#fff;
+    line-height: 40px;
+    padding:0 10px;
+}
+#nav li:hover {
+    background-color: #ccc;color: #000;
+}
+
+#slider .slider__img {
+    background-image: url(../image/slider\ img\ backgound.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    
+}
+#slider .slider__intro {
+    background-color:rgb(48, 44, 44); 
+    color: #fff;
+}
+#slider .slider__intro-right{
+    margin:100px;
+}
+
+#slider .sld-tittle {
+    font-size:72px;
+}
+#slider .sld-des {
+    font-size:20px;
+    padding-top: 30px;
+}
+#slider .sld-if {
+    padding-top:30px;
+}
+
+#stt {
+    margin: 150px 200px;
+}
+#stt .stt__header{
+    margin-bottom:50px;
+    position: relative;
+}
+#stt .stt__header .btn-search{
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    right:0;
+}
+#stt .btn-name {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+#stt .ti-search:before{
+    padding-right: 10px;
+}
+#stt .btn-name:hover {
+    background-color:rgb(155, 197, 236)
+}
+
+/* status */
+#stt .stt__status{
+    margin-bottom:40px;
+}
+#stt .stt__status-img img{
+    width: 100%;
+    height:100%;
+}
+#stt .stt__status-content{
+    padding: 40px 40px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#stt .accout {
+    display: flex;
+    align-items: center;
+    height:32px;
+    position: relative;
+}
+#stt .accout p {
+    display: inline;
+}
+#stt .accout img {
+    height:32px;
+    width:32px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+#stt .accout__share-btn{
+    position: absolute;
+    right: 0;
+}
+#stt .main-topic,
+#stt .main-write{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+} 
+#stt .main-topic{
+    font-size:22px;
+    font-weight:100;
+    margin: 18px 0 12px;
+}
+#stt .main-write{
+    font-size:14px;
+    padding-bottom: 45px;
+    line-height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+#stt .stt-reac {
+    float: right;
+    text-decoration: none;
+    border:none;
+    color:red;
+    background-color:#fff;
+    margin-top:12px;
+    cursor: pointer;
+}
+
+#contact{
+    background-color:#000;
+    color: #fff;
+    padding:0 100px;   
+}
+
+#contact .contact__info{
+    text-align: center;
+    margin-top:50px;
+    line-height:80px;
+}
+#contact .contact__info .ct {
+    font-size: 45px;
+    font-weight:50;
+}
+#contact .contact__info a{
+    text-decoration: none;
+    color: #fff;
+}
+#contact .contact__info :hover a{
+    color: #ccc;
+}
+#contact .contact__form{
+    margin-top:70px;
+}
+#contact .contact__form-input{
+    padding: 20px 10px;
+}
+#contact .contact__form-input label{
+    display: block;
+}
+#contact .contact__form-input input{
+    width: 100%;
+    padding:10px ;
+    background-color:black;
+    color:white;
+    border:none;
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+
+}
+#contact .contact__form-input button{
+    width:100%;
+    padding: 10px 0;
+    border:none;
+    background-color: #fff;
+    color:#000;
+}
+#contact .contact__form-input button:hover{
+    background-color: #ccc;
+}
+#contact .input-mes{
+    margin-top: 5px;
+    width: 100%;
+    resize: none;
+    border:none;
+    border-bottom: 1px solid #fff;
+    background-color:#000;
+    color: #fff;
+    height: 100px;
+}
+
+#contact .input-mes:hover,
+#contact .contact__form-input input:hover{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+#footer{
+    background-color: #000;
+    color: #fff;
+}
+#footer .map iframe{
+    width: 100%;
+}
+#footer .social  {
+    padding-top: 40px;
+    background-color:#000;
+    height:200px;
+    text-align: center;
+}
+#footer .social a{
+    text-decoration: none;
+}
+#footer .social i{
+    padding:0 5px;
+    color: #fff;
+}
+#footer .copyright{
+    margin-top: 40px;
+}
+
+/* quote and about*/
+.quote{
+    background-image: url(../image/quote\ back\ ground.webp);
+}
+#quote__slider{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    width:100%;
+    text-align: center;
+    font-size:22px;
+    color:rgb(255, 255, 255);
+    height:60%;
+    display: block;
+    padding: 300px 100px;
+}
+#quote__slider p{
+    padding-top: 12px;
+    font-weight: 100;
+}
+.about{
+    background-image: url(../image/about.webp);
+}
+.about p{
+    font-size:15px;
+}
+.about text{
+    font-size: 40px;
+}
+/* contact */
+.contact_tab{
+    background-color:rgb(48, 44, 44) !important; 
+}
+.contact_tab .contact__form-input textarea,
+.contact_tab .contact__form-input input{
+    background-color:rgb(48, 44, 44) !important;
+}
+/* instagram */
+#instagram{
+    background-color: #000;
+    padding: 100px 200px;
+}
+#instagram .instagram__blog{
+    background-color: #fff;
+    color: #000;
+}
+.instagram__blog-i4{
+    padding: 32px 16px 16px;
+    position: relative;
+}
+#instagram .instagram__blog-i4 img {
+    border-radius: 50%;
+    font-size:10px;
+    height: 54px;
+}
+#instagram .profile div{
+    padding:5px 0 20px;
+    
+}
+#instagram .profile div p {
+    display: inline;
+    padding-right: 16px; 
+    opacity:0.7;
+}
+#instagram .profile p{
+    padding-bottom: 16px;
+    opacity:0.8;
+}
+#instagram .profile .profile__yourname{
+    font-size:24px;
+    opacity:1;
+}   
+#instagram .btn-follow{
+    position:absolute;
+    top:20px;
+    right: 40px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+#instagram .btn-follow:hover{
+    background-color: #ccc;
+    opacity:0.8;
+}
+#instagram .btn-follow .ti-instagram {
+    padding-right: 16px;  
+}
+.instagram__blog-list {
+    display:flex;
+    flex-wrap:wrap;
+    padding:8px;
+}
+.instagram__blog-list img,
+.instagram__blog-list video {
+    padding:8px 8px;
+}
+.instagram__blog-weekendvibes {
+    padding:8px 8px;
+}
+.instagram__blog-weekendvibes p{
+    text-align: center;
+    font-size:24px;
+    opacity:0.5;
+    padding:50px 0;
+}
+.list-week{
+    display:flex;
+    flex-wrap: wrap;
+}
+.list-week img{
+    padding:8px 8px;
+}
